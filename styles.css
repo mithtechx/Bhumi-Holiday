@@ -875,4 +875,43 @@ img {
     width: 54px;
     height: 54px;
   }
+  
+}
+
+.trv-marquee {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg,#0a2540,#163b65);
+    padding: 15px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.trv-marquee-track {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    animation: scrollLeft 25s linear infinite;
+}
+
+.trv-marquee-item {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.trv-marquee-track span {
+    color: #ffd700;
+    font-size: 18px;
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
