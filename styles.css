@@ -48,6 +48,17 @@ img {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
 }
+.coupon-badge{
+    background: linear-gradient(135deg,#ffb703,#ffd166);
+    color:#111;
+    font-size:14px;
+    font-weight:700;
+    padding:8px 14px;
+    border-radius:30px;
+    display:inline-block;
+    margin-bottom:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
 
 .preloader-glow,
 .bg-orb {
