@@ -861,4 +861,12 @@
       const phone = document.getElementById('phone').value;
       const destination = document.getElementById('destination').value;
       const pickup = document.getElementById('pickup').value;
-      const message =
+      const message = document.getElementById('message').value;
+
+      const whatsappText = `Hi Bhumi Holiday, I want a quote:%0A- *Name:* ${encodeURIComponent(name)}%0A- *Phone:* ${encodeURIComponent(phone)}%0A- *Destination:* ${encodeURIComponent(destination)}%0A- *Pickup:* ${encodeURIComponent(pickup)}%0A- *Details:* ${encodeURIComponent(message)}`;
+      
+      window.open(`[https://wa.me/918295556629?text=$](https://wa.me/918295556629?text=$){whatsappText}`, '_blank');
+    });
+  </script>
+</body>
+</html>
