@@ -258,43 +258,102 @@
       </div>
     </section>
 
-    <!-- code for infinite left moving loop  -->
-    <section class="trv-marquee-wrap">
+ <!-- Improved Infinite Moving Marquee Section -->
+<section class="trv-marquee-wrap">
+  <style>
+    .trv-marquee-wrap {
+      width: 100%;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 16px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: system-ui, -apple-system, sans-serif;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .trv-marquee {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      user-select: none;
+      /* Smooth gradient mask for faded edges */
+      mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    }
+
+    .trv-marquee-track {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-shrink: 0;
+      animation: trv-scroll 25s linear infinite;
+    }
+
+    /* Pause scrolling on hover for better user experience */
+    .trv-marquee:hover .trv-marquee-track {
+      animation-play-state: paused;
+    }
+
+    .trv-marquee-item {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #f8fafc;
+      transition: color 0.2s ease;
+      cursor: pointer;
+    }
+
+    .trv-marquee-item:hover {
+      color: #38bdf8;
+    }
+
+    .trv-marquee-star {
+      color: #f59e0b;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    /* Keyframes for seamless 50% loop */
+    @keyframes trv-scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+
   <div class="trv-marquee">
     <div class="trv-marquee-track">
-
+      <!-- Original Set -->
       <span class="trv-marquee-item">Manali Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Kullu Manali Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Shimla Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Shimla Manali Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Manali Kasol Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Kasol Manikaran Tour Package</span>
-      <span>★</span>
+      <span class="trv-marquee-star">★</span>
 
-      <!-- Duplicate for infinite effect -->
-
+      <!-- Duplicate Set for Seamless Loop -->
       <span class="trv-marquee-item">Manali Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Kullu Manali Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Shimla Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
       <span class="trv-marquee-item">Shimla Manali Tour Package</span>
-      <span>★</span>
-
+      <span class="trv-marquee-star">★</span>
+      <span class="trv-marquee-item">Manali Kasol Tour Package</span>
+      <span class="trv-marquee-star">★</span>
+      <span class="trv-marquee-item">Kasol Manikaran Tour Package</span>
+      <span class="trv-marquee-star">★</span>
     </div>
   </div>
 </section>
