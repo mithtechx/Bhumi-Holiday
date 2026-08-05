@@ -82,85 +82,104 @@
       </div>
     </section>
 
-    <section class="section" id="packages">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-kicker">Tour Packages</div>
-          <h2 class="section-title">High-conversion Himachal packages crafted for every traveler.</h2>
-          <p class="section-copy">Choose a ready package or request a custom itinerary for Manali, Shimla, Kasol, Dharamshala and complete Himachal Pradesh tours with everything arranged from pickup to drop.</p>
+   Here is your exact HTML structure, updated with inline styles and utility classes to look modern and clean without needing external stylesheets or extra HTML wrapper tags:
+
+```html
+<section class="section" id="packages" style="padding: 60px 20px; background: #f8fafc; font-family: system-ui, -apple-system, sans-serif;">
+  <div class="container" style="max-width: 1200px; margin: 0 auto;">
+    <div class="section-header reveal" style="text-align: center; max-width: 680px; margin: 0 auto 48px auto;">
+      <div class="section-kicker" style="display: inline-block; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2563eb; background: #eff6ff; padding: 6px 14px; border-radius: 999px; margin-bottom: 12px;">Tour Packages</div>
+      <h2 class="section-title" style="font-size: 2.25rem; font-weight: 800; color: #0f172a; line-height: 1.25; margin-bottom: 12px;">High-conversion Himachal packages crafted for every traveler.</h2>
+      <p class="section-copy" style="font-size: 1.05rem; color: #64748b; line-height: 1.6;">Choose a ready package or request a custom itinerary for Manali, Shimla, Kasol, Dharamshala and complete Himachal Pradesh tours with everything arranged from pickup to drop.</p>
+    </div>
+    
+    <div class="grid package-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; align-items: stretch;">
+      
+      <!-- Couple Package -->
+      <article class="card package-card reveal" style="background: #ffffff; border-radius: 16px; padding: 28px 24px; display: flex; flex-direction: column; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+        <span class="tag" style="align-self: flex-start; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 10px; border-radius: 999px; background: #f1f5f9; color: #475569; margin-bottom: 12px;">Romantic Escape</span>
+        <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin-bottom: 6px;">Couple Package</h3>
+        <p class="muted" style="font-size: 0.9rem; color: #64748b; margin-bottom: 20px; line-height: 1.5; min-height: 40px;">Private, comfortable and scenic Himachal holiday for couples.</p>
+        <div class="price" style="font-size: 0.85rem; color: #64748b; border-bottom: 1px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 20px;">
+          Starting from <span style="display: block; font-size: 1.85rem; font-weight: 800; color: #0f172a; margin-top: 2px;">₹14,999</span> Per Person
         </div>
-        <div class="grid package-grid">
-          <article class="card package-card reveal">
-            <span class="tag">Romantic Escape</span>
-            <h3>Couple Package</h3>
-            <p class="muted">Private, comfortable and scenic Himachal holiday for couples.</p>
-            <div class="price">Starting from <span>₹14,999</span>Per Person</div>
-            <ul class="inclusions">
-              <li>Hotel stay included</li>
-              <li>Private cab for sightseeing</li>
-              <li>Breakfast and dinner</li>
-              <li>Pickup and drop available</li>
-            </ul> <div class="coupon-badge">
-     🎉 ₹1000 Cashback Per Person
-</div>
-            <a class="btn btn-blue" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Couple%20Package." target="_blank" rel="noopener">Book Now</a>
-          </article>
-
-          <article class="card package-card featured reveal">
-            <span class="tag">Most Popular</span>
-            <h3>Family Package</h3>
-            <p class="muted">Safe, relaxed and value-focused family tour with trusted hotels.</p>
-            <div class="price">Starting from <span>₹14,999</span> Per Person</div>
-           
-            <ul class="inclusions">
-              <li>Family hotel rooms</li>
-              <li>Private cab and local sightseeing</li>
-              <li>Breakfast and dinner</li>
-              <li>Chandigarh or Delhi pickup</li>
-            </ul>
-              <div class="coupon-badge">
-    🎉 ₹1000 Cashback Per Person
-</div>
-            <a class="btn btn-primary" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Family%20Package." target="_blank" rel="noopener">Book Now</a>
-          </article>
-
-          <article class="card package-card reveal">
-            <span class="tag">Friends Trip</span>
-            <h3>Group Package</h3>
-            <p class="muted">Energetic trips for friends, groups and office getaways.</p>
-            <div class="price">Starting from <span>₹10,999</span> Per Person</div>
-            
-            <ul class="inclusions">
-              <li>Group hotel stay</li>
-              <li>Comfortable cab options</li>
-              <li>Meals as per package</li>
-              <li>Flexible itinerary support</li>
-            </ul>  <div class="coupon-badge">
-     🎉 ₹1000 Cashback Per Person
-</div>
-            <a class="btn btn-blue" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Group%20Package." target="_blank" rel="noopener">Book Now</a>
-         
-          </article>
-
-          <article class="card package-card reveal">
-            <span class="tag">Luxury Stay</span>
-            <h3>Luxury Package</h3>
-            <p class="muted">Premium hotels, luxury cab choices and curated sightseeing.</p>
-            <div class="price">Starting from <span>₹24,999</span> Per Person</div>
-          
-            <ul class="inclusions">
-              <li>Premium hotel stay</li>
-              <li>Luxury private cab</li>
-              <li>Breakfast and dinner</li>
-              <li>Priority travel assistance</li>
-            </ul>  <div class="coupon-badge">
-     🎉 ₹1000 Cashback Per Person
-</div>
-            <a class="btn btn-blue" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Luxury%20Package." target="_blank" rel="noopener">Book Now</a>
-          </article>
+        <ul class="inclusions" style="list-style: none; margin: 0 0 20px 0; padding: 0; flex-grow: 1;">
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Hotel stay included</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Private cab for sightseeing</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Breakfast and dinner</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Pickup and drop available</li>
+        </ul>
+        <div class="coupon-badge" style="background: #fffbeb; border: 1px dashed #f59e0b; color: #b45309; font-size: 0.825rem; font-weight: 700; padding: 8px 12px; border-radius: 8px; text-align: center; margin-bottom: 16px;">
+          🎉 ₹1000 Cashback Per Person
         </div>
-      </div>
-    </section>
+        <a class="btn btn-blue" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Couple%20Package." target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 12px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Book Now</a>
+      </article>
+
+      <!-- Family Package (Featured) -->
+      <article class="card package-card featured reveal" style="background: #ffffff; border-radius: 16px; padding: 28px 24px; display: flex; flex-direction: column; border: 2px solid #2563eb; box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.15); transform: translateY(-4px);">
+        <span class="tag" style="align-self: flex-start; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 10px; border-radius: 999px; background: #2563eb; color: #ffffff; margin-bottom: 12px;">Most Popular</span>
+        <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin-bottom: 6px;">Family Package</h3>
+        <p class="muted" style="font-size: 0.9rem; color: #64748b; margin-bottom: 20px; line-height: 1.5; min-height: 40px;">Safe, relaxed and value-focused family tour with trusted hotels.</p>
+        <div class="price" style="font-size: 0.85rem; color: #64748b; border-bottom: 1px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 20px;">
+          Starting from <span style="display: block; font-size: 1.85rem; font-weight: 800; color: #0f172a; margin-top: 2px;">₹14,999</span> Per Person
+        </div>
+        <ul class="inclusions" style="list-style: none; margin: 0 0 20px 0; padding: 0; flex-grow: 1;">
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Family hotel rooms</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Private cab and local sightseeing</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Breakfast and dinner</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Chandigarh or Delhi pickup</li>
+        </ul>
+        <div class="coupon-badge" style="background: #fffbeb; border: 1px dashed #f59e0b; color: #b45309; font-size: 0.825rem; font-weight: 700; padding: 8px 12px; border-radius: 8px; text-align: center; margin-bottom: 16px;">
+          🎉 ₹1000 Cashback Per Person
+        </div>
+        <a class="btn btn-primary" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Family%20Package." target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 12px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 0.95rem; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);">Book Now</a>
+      </article>
+
+      <!-- Group Package -->
+      <article class="card package-card reveal" style="background: #ffffff; border-radius: 16px; padding: 28px 24px; display: flex; flex-direction: column; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+        <span class="tag" style="align-self: flex-start; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 10px; border-radius: 999px; background: #f1f5f9; color: #475569; margin-bottom: 12px;">Friends Trip</span>
+        <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin-bottom: 6px;">Group Package</h3>
+        <p class="muted" style="font-size: 0.9rem; color: #64748b; margin-bottom: 20px; line-height: 1.5; min-height: 40px;">Energetic trips for friends, groups and office getaways.</p>
+        <div class="price" style="font-size: 0.85rem; color: #64748b; border-bottom: 1px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 20px;">
+          Starting from <span style="display: block; font-size: 1.85rem; font-weight: 800; color: #0f172a; margin-top: 2px;">₹10,999</span> Per Person
+        </div>
+        <ul class="inclusions" style="list-style: none; margin: 0 0 20px 0; padding: 0; flex-grow: 1;">
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Group hotel stay</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Comfortable cab options</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Meals as per package</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Flexible itinerary support</li>
+        </ul>
+        <div class="coupon-badge" style="background: #fffbeb; border: 1px dashed #f59e0b; color: #b45309; font-size: 0.825rem; font-weight: 700; padding: 8px 12px; border-radius: 8px; text-align: center; margin-bottom: 16px;">
+          🎉 ₹1000 Cashback Per Person
+        </div>
+        <a class="btn btn-blue" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Group%20Package." target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 12px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Book Now</a>
+      </article>
+
+      <!-- Luxury Package -->
+      <article class="card package-card reveal" style="background: #ffffff; border-radius: 16px; padding: 28px 24px; display: flex; flex-direction: column; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+        <span class="tag" style="align-self: flex-start; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 4px 10px; border-radius: 999px; background: #f1f5f9; color: #475569; margin-bottom: 12px;">Luxury Stay</span>
+        <h3 style="font-size: 1.35rem; font-weight: 700; color: #0f172a; margin-bottom: 6px;">Luxury Package</h3>
+        <p class="muted" style="font-size: 0.9rem; color: #64748b; margin-bottom: 20px; line-height: 1.5; min-height: 40px;">Premium hotels, luxury cab choices and curated sightseeing.</p>
+        <div class="price" style="font-size: 0.85rem; color: #64748b; border-bottom: 1px solid #f1f5f9; padding-bottom: 16px; margin-bottom: 20px;">
+          Starting from <span style="display: block; font-size: 1.85rem; font-weight: 800; color: #0f172a; margin-top: 2px;">₹24,999</span> Per Person
+        </div>
+        <ul class="inclusions" style="list-style: none; margin: 0 0 20px 0; padding: 0; flex-grow: 1;">
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Premium hotel stay</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Luxury private cab</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Breakfast and dinner</li>
+          <li style="font-size: 0.9rem; color: #334155; margin-bottom: 10px; display: flex; align-items: center;"><span style="color: #2563eb; margin-right: 8px; font-weight: bold;">✓</span> Priority travel assistance</li>
+        </ul>
+        <div class="coupon-badge" style="background: #fffbeb; border: 1px dashed #f59e0b; color: #b45309; font-size: 0.825rem; font-weight: 700; padding: 8px 12px; border-radius: 8px; text-align: center; margin-bottom: 16px;">
+          🎉 ₹1000 Cashback Per Person
+        </div>
+        <a class="btn btn-blue" href="https://wa.me/918295556629?text=Hi%20Bhumi%20Holiday%2C%20I%20want%20to%20book%20the%20Luxury%20Package." target="_blank" rel="noopener" style="display: block; text-align: center; background: #2563eb; color: #ffffff; padding: 12px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 0.95rem;">Book Now</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+```
 
     <section class="section" id="destinations">
       <div class="container">
